@@ -18,6 +18,11 @@ function Projects() {
       Description:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quodomnis, odit libero accusantium sunt qui consectetur. Cum ducimus delectusnostrum, dignissimos officiis corrupti, officia repellendus, rem deserunt iusto totam!",
     },
+    {
+      name: "SocialFix",
+      Description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quodomnis, odit libero accusantium sunt qui consectetur. Cum ducimus delectusnostrum, dignissimos officiis corrupti, officia repellendus, rem deserunt iusto totam!",
+    },
   ];
   return (
     <div className="w-full flex flex-col p-5">
@@ -28,12 +33,20 @@ function Projects() {
         Projects
       </h4>
       {projects.map((project) => (
-        <div className="flex flex-col w-3/4 h-[300px] bg-[#0000002a] m-3">
-          <h1>{project.name}</h1>
-          <article>{project.Description}</article>
-          <div className="flex flex-row">
-            <button>{"<Code/>"}</button>
-            <button>{"Demo"}</button>
+        <div className="flex flex-col w-3/4 p-5 h-[300px] bg-[#42384400] m-3 rounded-sm shadow-xl shadow-black">
+          <h1 className="text-2xl w-full h-1/4 text-slate-200">
+            {project.name}
+          </h1>
+          <article className="w-full h-1/2 text-[#66e099]">
+            {project.Description}
+          </article>
+          <div className="w-full h-1/3 flex flex-row justify-center items-center">
+            <button className="text-white hover:text-yellow-400 hover:text-xl text-md m-3">
+              {"<Code/>"}
+            </button>
+            <button className="text-white hover:text-yellow-400 hover:text-xl text-md m-3">
+              {"Demo"}
+            </button>
           </div>
         </div>
       ))}

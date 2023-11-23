@@ -25,32 +25,51 @@ export const Menu = () => {
     },
   ];
   return (
-    <div className="main  text-black">
+    <div className="main  text-black ">
       <h1 className="m-5">Landon Michael</h1>
-      <article className="m-5 w-full h-1/3 text-lg flex flex-col">
+      <article className="m-5 w-full h-1/3 p-2 text-lg flex flex-col">
         Hello,I'm Landon Michael, a passionate and innovative web developer
         dedicated to crafting exceptional digital experiences. With a keen eye
         for design and a knack for problem-solving, I thrive on turning ideas
         into interactive and user-friendly websites.
         <div className="w-full h-1/3  mt-10 flex flex-col">
-          <h4>
-            <Link to="about" spy={true} smooth={true}>
-              About
-            </Link>
-          </h4>
-          <h4>
-            <Link to="skills" spy={true} smooth={true}>
-              Skills
-            </Link>
-          </h4>
-          <h4>
-            <Link to="project" spy={true} smooth={true}>
-              Projects
-            </Link>
-          </h4>
+          <Link
+            className="hover:text-yellow-400 text-xl"
+            to="about"
+            spy={true}
+            smooth={true}
+          >
+            About
+          </Link>
+
+          <Link
+            className="hover:text-yellow-400 text-xl"
+            to="skills"
+            spy={true}
+            smooth={true}
+          >
+            Skills
+          </Link>
+
+          <Link
+            className="hover:text-yellow-400 text-xl"
+            to="project"
+            spy={true}
+            smooth={true}
+          >
+            Experience
+          </Link>
+          <Link
+            className="hover:text-yellow-400 text-xl"
+            to="project"
+            spy={true}
+            smooth={true}
+          >
+            Projects
+          </Link>
         </div>
       </article>
-      <div className="m-5 w-full flex flex-col">
+      <div className="m-5 w-full h-1/5 flex flex-col justify-end ">
         <div className=" flex flex-row text-white mb-2">
           <h3 className=" text-left text-xl">Socails</h3>
           <Hi2Icons.HiOutlineArrowDownRight className="text-2xl" />

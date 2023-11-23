@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Experience from "./components/Experience.jsx";
 import Menu from "./components/Menu";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -17,6 +18,7 @@ function App() {
           <div className="left_container ">
             <About />
             <Skills />
+            <Experience />
             <Projects />
           </div>
         </div>
