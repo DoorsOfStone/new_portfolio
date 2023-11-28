@@ -2,9 +2,11 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about" className="w-full flex flex-col p-5">
-      <h1 className="text-6xl text-white w-3/4 border-b ">About</h1>
-      <article className="w-3/4 p-5  text-left m-5 text-xl text-white rounded-sm shadow-xl shadow-black">
+    <div className="w-full flex flex-col p-5">
+      <h1 id="about" className="text-6xl text-white w-3/4 border-b ">
+        About
+      </h1>
+      <article className="w-3/4 p-5  text-left m-5 text-xl text-white">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum aliquid
         minima quidem similique voluptatem modi provident iusto magni
         exercitationem illum! Voluptatem repudiandae natus unde ea eum quos

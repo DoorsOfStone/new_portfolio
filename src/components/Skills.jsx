@@ -15,9 +15,11 @@ function Skills() {
     },
   ];
   return (
-    <div id="skills" className="w-3/4 flex flex-col p-5 ">
-      <h1 className="w-3/4 text-white text-6xl  border-b">Skills</h1>
-      <div className="w-full flex flex-row flex-wrap m-3 p-5  rounded-sm shadow-xl shadow-black ">
+    <div id="" className="w-3/4 flex flex-col p-5 ">
+      <h1 id="skills" className="w-full text-white text-6xl  border-b">
+        Skills
+      </h1>
+      <div className="w-full flex flex-row flex-wrap m-3 p-5  ">
         <div className="flex flex-col justify-center items-center m-5">
           <span className="text-6xl text-cyan-500">
             <FaIcons.FaReact />
@@ -49,10 +51,22 @@ function Skills() {
           <span className="text-white">Typescript</span>
         </div>
         <div className="flex flex-col m-5 justify-center items-center">
+          <span className="text-6xl text-yellow-600">
+            <SiIcons.SiPython />
+          </span>
+          <span className="text-white">Python</span>
+        </div>
+        <div className="flex flex-col m-5 justify-center items-center">
           <span className="text-6xl text-green-400">
             <FaIcons.FaNodeJs />
           </span>
           <span className="text-white">Node JS</span>
+        </div>
+        <div className="flex flex-col m-5 justify-center items-center">
+          <span className="text-6xl text-green-600">
+            <SiIcons.SiExpress />
+          </span>
+          <span className="text-white">Express JS</span>
         </div>
         <div className="flex flex-col m-5 justify-center items-center">
           <span className="text-6xl text-green-600">
@@ -71,6 +85,24 @@ function Skills() {
             <FaIcons.FaBootstrap />
           </span>
           <span className="text-white">Bootstrap</span>
+        </div>
+        <div className="flex flex-col m-5 justify-center items-center">
+          <span className="text-6xl text-slate-300">
+            <FaIcons.FaShopify />
+          </span>
+          <span className="text-white">Shopify</span>
+        </div>
+        <div className="flex flex-col m-5 justify-center items-center">
+          <span className="text-6xl text-orange-400">
+            <SiIcons.SiFirebase />
+          </span>
+          <span className="text-white">Firebase</span>
+        </div>
+        <div className="flex flex-col m-5 justify-center items-center">
+          <span className="text-6xl text-orange-400">
+            <FaIcons.FaAws />
+          </span>
+          <span className="text-white">AWS</span>
         </div>
       </div>
     </div>

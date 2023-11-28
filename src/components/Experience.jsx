@@ -2,9 +2,9 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div id="about" className="w-full flex flex-col p-5">
+    <div id="work" className="w-full flex flex-col p-5">
       <h1 className="text-6xl text-white w-3/4 border-b ">Experience</h1>
-      <article className="w-3/4 p-5 flex flex-col text-left m-5 text-xl text-white rounded-sm shadow-xl shadow-black">
+      <article className="w-3/4 p-5 flex flex-col text-left m-5 text-xl text-white ">
         <div>
           <h2>Freelance{"[Internship]"}</h2>
           <h4 className="text-sm ">Febuary,2023-Present</h4>

@@ -33,7 +33,7 @@ function Projects() {
         Projects
       </h4>
       {projects.map((project) => (
-        <div className="flex flex-col w-3/4 p-5 h-[300px] bg-[#42384400] m-3 rounded-sm shadow-xl shadow-black">
+        <div className="flex flex-col w-3/4 p-5 h-[300px] bg-[#0000002f] m-3 rounded-sm shadow-inner shadow-[#09090ffd]">
           <h1 className="text-2xl w-full h-1/4 text-slate-200">
             {project.name}
           </h1>
